@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv/
+*.DS_Store
+.env/
+
+# VSCode
+.vscode/
+
+# Django
+db.sqlite3
+*.pyc
+staticfiles/
+media/
+
+# Environment variables
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Migrations (optional: include if you don't want to track them)
+*/migrations/*.py
+*/migrations/__pycache__/
+
+# Anaconda
+*.ipynb_checkpoints/
+*.bak
